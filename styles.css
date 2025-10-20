@@ -1,0 +1,97 @@
+/* Import Google Font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Basic page style */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline; /* ✅ Makes navbar inline */
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #f4b41a;
+}
+
+/* Section design */
+section {
+  background-color: white;
+  padding: 50px;
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #222;
+  border-bottom: 2px solid #f4b41a;
+  padding-bottom: 5px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #f4b41a;
+  color: #222;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #222;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
